@@ -25,10 +25,24 @@ html, body {
 }
 
 .navbar__logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
     font-family: 'Fasthand', cursive;
     font-size: 29pt;
     color: #222;
 }
+
+.navbar__back a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+.navbar__back a:hover {
+    color: #555;
+}
+
 
 .navbar__menu {
     display: flex;
@@ -116,23 +130,23 @@ main > section.showcase .showcase__bottom {
     margin: auto;
 }
 
-main > section.showcase#city {
+main > section.showcase--city {
     background-image: url(/images/twizy.jpg);
 }
 
-main > section.showcase#hatchback {
+main > section.showcase--hatchback {
     background-image: url(/images/500.jpg);
 }
 
-main > section.showcase#saloon {
+main > section.showcase--saloon {
     background-image: url(/images/saloon.webp);
 }
 
-main > section.showcase#luxury {
+main > section.showcase--luxury {
     background-image: url(/images/bugatti.jpg);
 }
 
-main > section.showcase#sports {
+main > section.showcase--sports {
     background-image: url(/images/Rayfield\ Caliburn.webp);
 }
 
