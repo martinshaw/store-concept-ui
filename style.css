@@ -1,0 +1,175 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+    user-select: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar__logo {
+    font-family: 'Fasthand', cursive;
+    font-size: 29pt;
+    color: #222;
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar__menu ul li {
+    margin: 0 1rem;
+    color: #999;
+}
+
+.navbar__menu ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.navbar__menu ul li a:hover {
+    color: #111;
+}
+
+.navbar__menu ul li a.active {
+    color: #000;
+}
+
+.navbar__menu ul li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: transparent;
+    margin-top: 0px;
+}
+
+.navbar__menu ul li a:hover::after, .navbar__menu ul li a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    margin-top: 0px;
+}
+
+main {
+    display: block;
+    height: calc(100vh - 80px);
+    width: 100%;
+    margin-top: 80px;
+}
+
+main > section {
+    width: 100%;
+    height: 100%;
+}
+
+main > section.showcase {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+main > section.showcase .showcase__top {
+    flex: 1;
+    width: 100%;
+}
+
+main > section.showcase .showcase__bottom {
+    width: 100%;
+    margin: auto;
+}
+
+main > section.showcase--city {
+    background-image: url(./images/twizy.jpg);
+}
+
+main > section.showcase--hatchback {
+    background-image: url(./images/500.jpg);
+}
+
+main > section.showcase--saloon {
+    background-image: url(./images/saloon.webp);
+}
+
+main > section.showcase--luxury {
+    background-image: url(./images/bugatti.jpg);
+}
+
+main > section.showcase--sports {
+    background-image: url(./images/Rayfield\ Caliburn.webp);
+}
+
+main > section.showcase h1 {
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 300;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);   
+}
+
+main > section.showcase p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+main > section.showcase .btn {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    text-decoration: unset;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
