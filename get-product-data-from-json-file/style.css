@@ -11,6 +11,17 @@ body {
      */
     height: 100vh;
     width: 100vw;
+
+    /**
+     * Because we want to be fancy, add a subtle gradient from very light gra in the bottom left corner to transparent
+     *   (body's default background colour is white) in the top right corner.
+     * 
+     * e.g.
+     *   'linear-gradient(45deg, #f3f3f3, transparent)' is a linear gradient that starts at 45 degrees from the top left corner
+     *   'radial-gradient(#f3f3f3, transparent)' is a radial gradient that starts at the center of the element and expands outwards
+     *   'conic-gradient(#f3f3f3, transparent)' is a conic gradient that starts at the top of the element and expands outwards
+     */
+    background: linear-gradient(45deg, #f3f3f3, transparent);
 }
 
 #products {
@@ -31,6 +42,23 @@ body {
      * You can use a crazy high value like 9999px to make the corners completely round (a circle)
      */
     border-radius: 5px;
+
+    /**
+     * You can guess what this does ;) 
+     */
+    background-color: white;
+
+    /**
+     * 'box-shadow' allows us to add a shadow around the border of an element
+     *   The first two values are the horizontal and vertical offsets of the shadow (e.g. 10px 20px means 10px to the right and 20px down)
+     *   The third value is the blur radius of the shadow (e.g. 10px means the shadow will be blurred out by 10px)
+     *   The fourth value is the colour of the shadow (e.g. rgba(0, 0, 0, 0.2) means a black shadow with 20% opacity)
+     *   
+     *   You can use the 'inset' keyword to make the shadow appear inside the element instead of outside (e.g. box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);)
+     *   
+     *   You can play with these values using the handy editor in the Chrome / Firefox dev tools.
+     */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #products__loading {
