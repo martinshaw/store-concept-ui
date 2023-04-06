@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martcar - Get all product data from JSON file</title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="centered">
+    
+    <div id="products" >
+
+        <div id="products__loading" class="centered visible">
+            Loading ...
+        </div>
+
+        <table id="products__table" class="hidden">
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Product Type</th>
+                    <th>Product Price</th>
+                    <th>Product Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- NOTE: These are the tags which you would use if we were hard-coding a product instead of loading from a JSON file -->
+                <!-- <tr>
+                    <td>1</td>
+                    <td>Product 1</td>
+                    <td>100</td>
+                    <td><img src="https://picsum.photos/200/300" alt=""></td>
+                </tr> -->
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>

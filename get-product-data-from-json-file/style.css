@@ -1,0 +1,129 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    /**
+     * 'height: 100vh' makes the body of the page use the full height of the viewport (the browser window)
+     * 'width: 100vw' makes the body of the page use the full width of the viewport (the browser window)
+     */
+    height: 100vh;
+    width: 100vw;
+}
+
+#products {
+    /**
+     * I am setting an explicit width and height of 900px x 600px because I am going to make the products table scrollable
+     */
+    width: 900px;
+    height: 600px;
+
+    /**
+     * If a hex colour is #cccccc, you can shorten it to #ccc
+     * Hover over the hex colour to edit it in VS Code
+     */
+    border: 1px solid #ccc;
+
+    /**
+     * You can use border-radius to make the corners of an element rounded (including the corners of the border)
+     * You can use a crazy high value like 9999px to make the corners completely round (a circle)
+     */
+    border-radius: 5px;
+}
+
+#products__loading {
+    height: 100%;
+}
+
+#products__table {
+    /**
+     * 'height: 100%' makes the table use the full height of the #products element
+     * 'overflow-x: hidden' hides the horizontal scrollbar
+     * 'overflow-y: auto' shows the vertical scrollbar only when the table is too tall to fit in the #products element
+     */
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#products__table thead {
+    /**
+     * 'position: sticky' makes the table header stick to the top of the table when you scroll down
+     * 'top: 0' makes the table header stick to the top of the table
+     */
+    position: sticky;
+    top: 0;
+}
+
+#products__table thead th {
+    /**
+     * 'background-color: #eee' makes the table header background grey
+     * 'border-bottom: 1px solid #ccc' makes the table header have a grey border at the bottom
+     */
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+#products__table thead, #products__table tbody, #products__table tr {
+    text-align: center;
+}
+
+#products__table tbody tr {
+    /**
+     * 'cursor: pointer' makes the cursor change to a hand when you hover over a table row. This is a nice visual cue to the user that the row is clickable.
+     * Check out all of the possible values for the cursor property here: @see https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+     */
+    cursor: pointer;
+}
+
+/**
+ * These are the hardcoded widths of the table header cells based on a total width of 900px
+ */
+#products__table thead th:first-child { width: 120px; }
+#products__table thead th:nth-child(2) { width: 270px; }
+#products__table thead th:nth-child(3) { width: 130px; }
+#products__table thead th:nth-child(4) { width: 130px; }
+#products__table tbody td img { width: 300px; }
+
+
+
+/**
+ * The following are some useful utility classes that you can use to make your life easier
+ */
+ 
+/**
+ * Because the display value 'block' overrides the value 'flex' which is applied by the .centered class, we need
+ *   to use the :not() pseudo-class to make sure that the two values do not conflict
+ */
+.visible:not(.centered) {
+    /**
+     * 'block' shows the element and places other elements above and below it
+     * 'flex' is like 'block' but allows you to use flexbox to align the element within its parent element. @see https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+     * 'inline-block' shows the element and places other elements to the left and right of it
+     * 'none' hides the element
+     */
+    display: block;  
+}
+
+.hidden {
+    display: none;
+}
+
+.centered:not(.hidden) {
+    /**
+     * You do not need to worry about this for now, but I am just using flexbox to center the page body and the loading message
+     *
+     * 'display: flex' makes the element a flex container
+     * 'flex-direction: column' makes the flex container's children stack vertically
+     * 'align-items: center' makes the flex container's children align horizontally in the center
+     * 'justify-content: center' makes the flex container's children align vertically in the center
+     */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
