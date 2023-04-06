@@ -29,7 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
      * Then, we can use the += operator to add the HTML content to the innerHTML of the product table element.
      */
     const addProductToTable = (product, index) => {
-        const productElement = `
+
+        /**
+         * Why do I add 'data-index="${index}"' to the row element?
+         * 
+         * Because we want to be able to get the position of the product in the array when the user clicks on the row.
+         * We can use the dataset property of the element to get the values of custom attributes with the 'data-' prefix.
+         */
+        const newProductHTML = `
             <tr data-index="${index}">
                 <td>${product.id}</td>
                 <td>${product.name}</td>
@@ -41,8 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
             </tr>
         `;
 
-        // productsTableBodyElement.innerHTML = productsTableBodyElement.innerHTML + productElement;
-        productsTableBodyElement.innerHTML += productElement;
+        // productsTableBodyElement.innerHTML = productsTableBodyElement.innerHTML + newProductHTML;
+        productsTableBodyElement.innerHTML += newProductHTML;
+
     }
 
     /**
@@ -63,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
         productsTableBodyElement.addEventListener("click", (event) => {
 
             /**
-             * This event listener will be called when the user clicks on any element inside the table body element,
+             * This event listener will be called when the user clicks on any element inside the products table body element,
              *   so we need to check that the element clicked on is a row or is a child element of the row element.
              */
             const rowElement = event.target.tagName === 'TR' ? event.target : event.target.closest("tr");
