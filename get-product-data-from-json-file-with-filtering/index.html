@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martcar - Get all product data from JSON file</title>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/loadProducts.js"></script>
+    <script src="scripts/searchProducts.js"></script>
+    <script src="scripts/sortProducts.js"></script>
+    <script src="scripts/displayInTable.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="centered">
+    
+    <div id="products" >
+
+        <form>
+
+            <input type="search" id="products__search_input" placeholder="Search for products ...">
+
+            <select id="products__search_sort">
+                <option value="id-asc">Sort by ID (asc)</option>
+                <option value="id-desc">Sort by ID (desc)</option>
+                <option value="name-asc">Sort by Name (asc)</option>
+                <option value="name-desc">Sort by Name (desc)</option>
+                <option value="price-asc">Sort by Price (asc)</option>
+                <option value="price-desc">Sort by Price (desc)</option>
+            </select>
+
+        </form>
+
+        <div id="products__loading" class="centered visible">
+            Loading ...
+        </div>
+
+        <table id="products__table" class="hidden">
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Product Type</th>
+                    <th>Product Price</th>
+                    <th>Product Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- NOTE: These are the tags which you would use if we were hard-coding a product instead of loading from a JSON file -->
+                <!-- <tr>
+                    <td>1</td>
+                    <td>Product 1</td>
+                    <td>100</td>
+                    <td><img src="https://picsum.photos/200/300" alt=""></td>
+                </tr> -->
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>

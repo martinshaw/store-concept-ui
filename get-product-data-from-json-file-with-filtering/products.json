@@ -1,0 +1,457 @@
+[
+    {
+        "id": 1,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 100001,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 200002,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 300003,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 4,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 400004,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 500005,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 6,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 100006,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 200007,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 300008,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 9,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 400009,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000010,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 11,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000011,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000012,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000013,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 14,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000014,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000015,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 16,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000016,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000017,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000018,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 19,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000019,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000020,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 21,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000021,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000022,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000023,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 24,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000024,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000025,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 26,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000026,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000027,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000028,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 29,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000029,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000030,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 31,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000031,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000032,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000033,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 34,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000034,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000035,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 36,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000036,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000037,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000038,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 39,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000039,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000040,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 41,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000041,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 42,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000042,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000043,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 44,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000044,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 45,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000045,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 46,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000046,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 47,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000047,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 48,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000048,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 49,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000049,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 50,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000050,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 51,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000051,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 52,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000052,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 53,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000053,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 54,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000054,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 55,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000055,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 56,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000056,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 57,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000057,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 58,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000058,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 59,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000059,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 60,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000060,
+        "image": "/images/Rayfield Caliburn.webp"
+    },
+    {
+        "id": 61,
+        "name": "Renault Twizy",
+        "type": "city",
+        "price": 1000061,
+        "image": "/images/twizy.jpg"
+    },
+    {
+        "id": 62,
+        "name": "Fiat 500",
+        "type": "hatchback",
+        "price": 2000062,
+        "image": "/images/500.jpg"
+    },
+    {
+        "id": 63,
+        "name": "Peugeot Inception",
+        "type": "saloon",
+        "price": 3000063,
+        "image": "/images/saloon.webp"
+    },
+    {
+        "id": 64,
+        "name": "Bugatti La Voiture Noire",
+        "type": "luxury",
+        "price": 4000064,
+        "image": "/images/bugatti.jpg"
+    },
+    {
+        "id": 65,
+        "name": "Rayfield Caliburn",
+        "type": "sports",
+        "price": 5000065,
+        "image": "/images/Rayfield Caliburn.webp"
+    }
+]
